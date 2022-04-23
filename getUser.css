@@ -1,0 +1,30 @@
+#wrapper {
+    width: 100vw;
+    height: 100vh;
+    position: absolute;
+}
+
+.content {
+    width: fit-content;
+    height: fit-content;
+    margin: auto;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+}
+
+table {
+    margin: auto;
+    border-collapse: collapse;
+}
+
+table, tr, td, th {
+    border: thin solid black;
+}
+
+th, td {
+    padding: 5px 10px;
+    text-align: center;
+}
